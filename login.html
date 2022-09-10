@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuana Cargo</title>
+    <style>
+        .all{
+            width:100%;
+            min-height:100%;
+        }
+        .header{
+            width: 100%;
+            min-height: 20px;
+            /* z-index: 1;
+            float:top; */
+        }
+        .nemo{
+            width: 50%;
+            min-height: 620px;
+            background-color: #cccccc;
+            float: right;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 3;
+        }
+        .demo{
+            margin: 0px;
+            padding:0%;
+            width: 50%;
+            height: 620px;
+            z-index: 2;
+            background-image: url("https://colorlib.com/etc/lf/Login_v13/images/bg-01.jpg");
+        }
+        input{
+            width: 100%;
+            padding: 12px 25px;
+            margin: 6px 0;
+            border: 1px solid black;
+        }
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 20px 20px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .span{
+            color: #04AA6D;
+            display: flex;
+            font-size: 40px;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+        }
+        .login{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+         <div class="nemo">
+            <form>
+            <span class="span">TUANA CARGO</span>
+                <span class="login">Login</span>
+                <br>
+                <br>
+
+                <label for="name">Name</label>
+                <br>
+                <input class="input100" type="text" id="name" name="name" placeholder="Name...">
+                <br>
+                <br>
+
+                <label for="email">Email</label>
+                <br>
+                <input class="input100" type="text" name="email" placeholder="Email addess...">
+                <br>
+                <br>
+
+                <label for="username">Username</label>
+                <br>
+                <input class="input100" type="text" id="username" name="username" placeholder="Username...">
+                <br>
+                <br>
+
+                <label for="pass">Password</label>
+                <br>
+                <input class="input100" type="text" id="pass" name="pass" placeholder="*************">
+                <br>
+                <br>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="demo"></div>
+    </div>
+</body>
+</html>
